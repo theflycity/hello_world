@@ -1,11 +1,11 @@
-package org.example.test01;
+package org.example.exercise01;
 
-public class Test1 {
+public class Exercise1 {
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
-        Test1 test1 = new Test1();
-        int[] result = test1.twoSum2(nums, target);
+        Exercise1 exercise1 = new Exercise1();
+        int[] result = exercise1.twoSum2(nums, target);
         System.out.println(result[0] + " " + result[1]);
     }
     public int[] twoSum(int[] nums, int target) {

@@ -1,16 +1,6 @@
-package org.example.test02;
+package org.example.exercise02;
 
-public class Test2 {
-    public static void main(String[] args) {
-        ListNode listNode1 = new ListNode(2);
-        listNode1.next = new ListNode(4);
-        listNode1.next.next = new ListNode(3);
-        ListNode listNode2 = new ListNode(2);
-        listNode2.next = new ListNode(5);
-        listNode2.next.next = new ListNode(6);
-        ListNode listNode = new Test2().addTwoNumbers(listNode1, listNode2);
-        System.out.println("listNode.toString() = " + listNode.toString());
-    }
+public class Exercise2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode tail = null, head = null;

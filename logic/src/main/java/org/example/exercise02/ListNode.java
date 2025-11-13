@@ -1,4 +1,4 @@
-package org.example.test02;
+package org.example.exercise02;
 
 public class ListNode {
     int val;
